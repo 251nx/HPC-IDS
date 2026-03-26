@@ -36,3 +36,7 @@ Thumbs.db
 # Deployment
 .vercel
 .netlify
+
+# Local collaboration notes
+AGENTS_CHANGELOG.md
+CLAUDE.md
