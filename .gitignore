@@ -37,6 +37,9 @@ Thumbs.db
 .vercel
 .netlify
 
+# Claude Code local settings
+.claude/
+
 # Local collaboration notes
 AGENTS_CHANGELOG.md
 CLAUDE.md
