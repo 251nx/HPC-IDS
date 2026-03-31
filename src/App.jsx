@@ -146,7 +146,7 @@ export default function App() {
         sx={{ borderBottom: '1px solid', borderColor: 'divider' }}>
         <Toolbar variant="dense">
           <Typography variant="h6" sx={{ fontWeight: 700, fontSize: 15, flex: 1 }}>
-            HPC-IDS 高性能混凝土智能设计系统
+            RG-HPCMIDS 瑞高低碳高性能复合材料智能设计系统
           </Typography>
         </Toolbar>
       </AppBar>

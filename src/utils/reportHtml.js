@@ -63,7 +63,7 @@ export function buildReportHtml({ stepA, stepB, stepC, stepD, stepE, chartImageU
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>HPC-IDS 配合比报告${s?.grade ? ' — ' + s.grade : ''}</title>
+<title>RG-HPCMIDS 配合比报告${s?.grade ? ' — ' + s.grade : ''}</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:12px;color:#1a1a1a;padding:20px 28px;line-height:1.6}
@@ -97,10 +97,10 @@ tr:nth-child(even) td{background:#fafafa}
 <button class="print-btn" onclick="window.print()">打印 / 另存为 PDF</button>
 
 <div class="hdr">
-  <h1>HPC-IDS 高性能混凝土配合比设计报告
+  <h1>RG-HPCMIDS 瑞高低碳高性能复合材料配合比设计报告
     ${s?.grade ? `<span class="badge">${s.grade}</span>` : ''}
   </h1>
-  <div class="meta">生成时间：${exportedAt}&nbsp;&nbsp;|&nbsp;&nbsp;HPC-IDS Intelligent Design System v1.0</div>
+  <div class="meta">生成时间：${exportedAt}&nbsp;&nbsp;|&nbsp;&nbsp;RG-HPCMIDS Intelligent Design System v1.0</div>
 </div>
 
 <div class="two">
@@ -151,7 +151,7 @@ ${chartImageUrl ? `<h2>级配曲线图</h2>
 <img class="chart-img" src="${chartImageUrl}" alt="级配曲线">` : ''}
 
 <div class="footer">
-  本报告由 HPC-IDS 高性能混凝土智能设计系统自动生成，仅供参考。实际施工配比须经实验室验证后方可使用。
+  本报告由 RG-HPCMIDS 瑞高低碳高性能复合材料智能设计系统自动生成，仅供参考。实际施工配比须经实验室验证后方可使用。
 </div>
 </body>
 </html>`
